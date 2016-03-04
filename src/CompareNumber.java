@@ -4,11 +4,11 @@ public class CompareNumber {
 
         int A = 0, B = 0;
 
-        for (int i = 0; i < answer.length(); i ++) {
-            char c = answer.charAt(i);
-            if (input.charAt(i) == c) {
+        for (int index = 0; index < answer.length(); index ++) {
+            char indexVal = answer.charAt(index);
+            if (input.charAt(index) == indexVal) {
                 A ++;
-            } else if (input.contains(String.valueOf(c))) {
+            } else if (input.contains(String.valueOf(indexVal))) {
                 B ++;
             }
         }

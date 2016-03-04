@@ -3,9 +3,6 @@ import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;
 
-/**
- * Created by nancymi on 16/3/4.
- */
 public class CompareNumberTest {
 
     CompareNumber compareNumber;
